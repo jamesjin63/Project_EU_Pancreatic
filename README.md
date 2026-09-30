@@ -35,3 +35,7 @@ The source project contained merged GBD-format CSVs, not the pre-merge download 
 ## Local requirements
 
 Use R with `tidyverse`, `sf`, `patchwork`, `scales`, `forecast`, `data.table`, `ggplot2`, and `ragg`; Python 3 with `pandas`; and a UTF-8 locale. Supply the full source files locally, then run `scripts/prepare_source_data.py --help` for its required paths. It creates the ignored `data/` inputs and `EU28_location_list.csv`. Run the main R scripts from the repository root before the revision scripts; generated files are written to the ignored `results_VLW/` and `analysis/` output paths. Income elasticity is passed to the three main R scripts as `1` (main analysis), `0.5`, or `1.5`.
+
+## License
+
+The code in this repository is licensed under the [Apache License 2.0](LICENSE). External datasets retain their own terms of use; this license does not apply to data obtained from IHME, the World Bank, or map providers.
