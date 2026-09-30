@@ -1,0 +1,15 @@
+.DS_Store
+*.log
+*.pdf
+*.png
+*.Rhistory
+**/sessionInfo.txt
+*.csv
+*.rds
+*.geojson
+*.json
+results_VLW/
+data/
+EU28_location_list.csv
+__pycache__/
+*.pyc
